@@ -21,36 +21,8 @@ a.menuLink:hover {
     color: #1D6698;
 }
 
-.mainBackgroundBack {
-  position: absolute;
-  z-index: -1;
-  -webkit-filter: opacity(.3) blur(5px);
-  filter: opacity(.4) blur(5px);
-  right: -30%;
-  top:0;
-  width: 90%;
-}
-
-.mainBackgroundForeL {
-  position: absolute;
-  z-index: -1;
-  left: -10%;
-  top: 60%;
-  width: 60%;
-}
-
-.mainBackgroundForeR {
-  position: absolute;
-  z-index: -1;
-  right: 0%;
-  top: 60%;
-  width: 50%;
-}
-
 .banner {
   z-index: -1;
   position: absolute;
   width: 100%;
-  overflow-y: hidden;
-  overflow-x: visible;
 }
