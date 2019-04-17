@@ -46,3 +46,11 @@ a.menuLink:hover {
   font-size: 3em;
   text-align: center;
 }
+
+@media (max-width: 1250px) { 
+
+  .wrapper { width: 860px; }
+  section { width: 500px; }
+  header {width: 270px; }
+
+}
