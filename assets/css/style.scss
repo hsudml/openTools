@@ -8,18 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.wrapper {
-  width: 1200px;
-}
-
-header {
-  width: 25%;
-}
-
-section {
-  width: 70%;
-}
-
 a.menuLink {
     background: #fff;
     border-radius: 5em;
@@ -43,14 +31,17 @@ a.menuLink:hover {
 }
 
 #using-free--open-tools-a-holistic-selection-process-centered-on-digital-literacy {
-  font-size: 3em;
   text-align: center;
 }
 
-@media (max-width: 1250px) { 
+@media (min-width: 1250px) { 
 
-  .wrapper { width: 860px; }
-  section { width: 500px; }
-  header {width: 270px; }
+  .wrapper { width: 1200px; }
+  section { width: 70%; }
+  header {width: 25%; }
+  
+  #using-free--open-tools-a-holistic-selection-process-centered-on-digital-literacy {
+    font-size: 3em;
+  }
 
 }
