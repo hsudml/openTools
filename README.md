@@ -1,5 +1,5 @@
 # Using Free & Open Tools: a holistic selection process centered on digital literacy
-## Tim Miller - Digital Media & Learning Librarian - Humboldt State University
+_Tim Miller - Digital Media & Learning Librarian - Humboldt State University_
 
 _Presentation for Digital Initiatives Symposium, 2019_
 
