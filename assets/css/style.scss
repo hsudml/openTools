@@ -21,8 +21,7 @@ a.menuLink:hover {
     color: #1D6698;
 }
 
-.banner {
-  z-index: -1;
-  position: absolute;
+.banner {  
+  background: url(../images/bannerBackground.png);
   width: 100%;
 }
