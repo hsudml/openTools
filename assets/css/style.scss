@@ -5,6 +5,7 @@
 
 body {
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 a.menuLink {
@@ -22,10 +23,14 @@ a.menuLink:hover {
 }
 
 .banner {  
-  background: url(../images/bannerBackground.png);
-  width: 100%;
+    background: url(../images/bannerBackground.png);
+    width: 200%;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
 }
 
-.banner p {
-  font-style: italic;
+#using-free--open-tools-a-holistic-selection-process-centered-on-digital-literacy {
+  font-size: 3em;
+  text-align: center;
 }
