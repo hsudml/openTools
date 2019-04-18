@@ -1,6 +1,8 @@
 # Using Free & Open Tools: a holistic selection process centered on digital literacy
 _Tim Miller - Digital Media & Learning Librarian_ 
+
 _Humboldt State University_
+
 _Presentation for Digital Initiatives Symposium, 2019_
 
 
@@ -13,6 +15,17 @@ A digital literacy-centered approach to selecting software
 * Teaching &amp; Learning
 
 ## Free &amp; Open Tools
+
+Open Source
+* Openly licensed: copyright allows for others to study, change and distribute.
+* Inkscape, GIMP, Linux, Android, Firefox, LibreOffice, Chromium, Aframe, Blender, 
+
+Free Software
+* Free of charge: money is not exchanged in order to use the software.
+* Google, Google Drive, Social Media, Search, many Mobile Apps, Glitch.com, Stack Overflow, 
+* Freemium: base software/service is free, advanced features come with a charge.
+
+
 
 ## Needs Assessment
 * Purpose 
