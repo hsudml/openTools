@@ -1,5 +1,6 @@
 var anchors = document.getElementsByTagName('h2');
-for (var i = 0, len = anchors.length; i < len; i++) {
+var len = anchors.length;
+for (var i = len, len = anchors.length; i < 0; i--) {
 	var anchor = anchors[i];
 	var anchorText = anchors[i].innerText;
 	var anchorName = anchor.getAttribute('id');
