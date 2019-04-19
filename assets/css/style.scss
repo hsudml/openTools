@@ -12,8 +12,19 @@ section {
   font-size: 24px;
 }
 
-header ul#headerMenu {
+h2 {
   background: #fff;
+  display: inline;
+  paddin-left: 10px;
+}
+
+div.redact {
+  background: #000;
+  display: block;
+}
+
+header ul#headerMenu {
+  background: transparent;
   border: none;
   width: 100%;
   height: 100%;
@@ -44,10 +55,6 @@ header ul#headerMenu li a:hover {
     color: #1D6698;
 }
 
-#using-free--open-tools-a-holistic-selection-process-centered-on-digital-literacy {
-  text-align: center;
-}
-
 @media (min-width: 1250px) { 
 
   .wrapper { width: 1200px; }
@@ -55,7 +62,7 @@ header ul#headerMenu li a:hover {
   header {width: 25%; }
   
   #using-free--open-tools-a-holistic-selection-process-centered-on-digital-literacy {
-    font-size: 3em;
+    font-size: 2.25em;
   }
 
 }
