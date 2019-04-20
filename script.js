@@ -6,3 +6,11 @@ for (var i = 0, len = anchors.length; i < len; i++) {
 	var menuList = document.getElementById('headerMenu');
 	menuList.insertAdjacentHTML('beforeend', '<li><a href="#'+anchorName+'" class="menuLink">'+anchorText+'</a></li>');
 }
+
+const articles = document.querySelectorAll('h2');
+
+[].forEach.call(articles, a => {
+  var org_html = a.innerHTML;
+  new_html = "<div class='redact'>" + org_html + "</div>";
+  a.innerHTML = new_html;
+});
