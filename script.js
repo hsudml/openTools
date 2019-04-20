@@ -10,7 +10,7 @@ for (var i = 0, len = anchors.length; i < len; i++) {
 const articles = document.querySelectorAll('h2');
 
 [].forEach.call(articles, a => {
-  var org_html = a.innerHTML;
+  var org_html = a.outerHTML;
   new_html = "<div class='redact'>" + org_html + "</div>";
-  a.innerHTML = new_html;
+  a.outerHTML = new_html;
 });
