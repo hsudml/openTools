@@ -1,46 +1,37 @@
-# Using Free & Open Tools: a holistic selection process centered on digital literacy
-_Tim Miller - Digital Media & Learning Librarian | Humboldt State University | Presentation for Digital Initiatives Symposium, 2019_
+Welcome to Glitch
+=================
+
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
 
 
-## Digital Literacy &amp; Digital Tools
-### Goals
-        
-A digital literacy-centered approach to selecting software
-* Why open? What is free?
-* Major considerations
-* Teaching &amp; Learning
+Your Project
+------------
 
-## Free &amp; Open Tools
+### ← README.md
 
-Open Source
-* Openly licensed: copyright allows for others to study, change and distribute.
-* Inkscape, GIMP, Linux, Android, Firefox, LibreOffice, Chromium, Aframe, Blender, 
+That's this file, where you can tell people what your cool website does and how you built it.
 
-Free Software
-* Free of charge: money is not exchanged in order to use the software.
-* Google, Google Drive, Social Media, Search, many Mobile Apps, Glitch.com, Stack Overflow, 
-* Freemium: base software/service is free, advanced features come with a charge.
+### ← index.html
 
+Where you'll write the content of your website. 
 
+### ← style.css
 
-## Needs Assessment
-* Purpose 
-    * teaching & learning or problem solving
-* Goals 	
-    * T&L - learning storytelling vs learning DSLR/editing
-    * PS - solution, who (access), longevity
-* Learn 	
-    * What already exists? Community? 
-    * Do you have the expertise or time to develop the expertise? 
-* Next 	
-    * Is there a progression? 
-    * Maintenance?
-    * How often will someone need to learn/re-learn?
+CSS files add styling rules to your content.
 
-## Purpose
+### ← script.js
 
-## Goals
+If you're feeling fancy you can add interactivity to your site with JavaScript.
 
-## Learning &amp; Teaching
+### ← assets
 
-## Next
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
