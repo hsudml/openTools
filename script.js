@@ -12,18 +12,8 @@ $(function() {
     var searchTerm = $.trim($(this).closest(".form-row").find(".name").val());
     var searchTerm2 = $.trim($(this).closest(".form-row").find("label").text()).toLowerCase();
     //https://duckduckgo.com/?q=prezi+vpat&t=hi&ia=web
-    var searchurl = "https://duckduckgo.com/?q="+searchTerm+"+"+searchTerm2+"+&t=hi&ia=web";
+    var searchurl = "https://duckduckgo.com/?q="+searchTerm+"+"+searchTerm2+"&t=hi&ia=web";
     window.open(searchurl);
-  });
-  $("#allSubmit").click(function(e){
-    e.preventDefault();
-    $(".search").each(function(){
-      var searchTerm = $.trim($(this).find(".name").val());
-      var searchTerm2 = $.trim($(this).find("label").text()).toLowerCase();
-      //https://duckduckgo.com/?q=prezi+vpat&t=hi&ia=web
-      var searchurl = "https://duckduckgo.com/?q="+searchTerm+"+"+searchTerm2+"+&t=hi&ia=web";
-      window.open(searchurl);
-    });
   });
   
 //AlternativeTo  
