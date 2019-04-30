@@ -1,16 +1,55 @@
-var anchors = document.getElementsByTagName('h2');
-for (var i = 0, len = anchors.length; i < len; i++) {
-	var anchor = anchors[i];
-	var anchorText = anchors[i].innerText;
-	var anchorName = anchor.getAttribute('id');
-	var menuList = document.getElementById('headerMenu');
-	menuList.insertAdjacentHTML('beforeend', '<li><a href="#'+anchorName+'" class="menuLink">'+anchorText+'</a></li>');
-}
-
-const articles = document.querySelectorAll('h2');
-
-[].forEach.call(articles, a => {
-  var org_html = a.outerHTML;
-  new_html = "<div class='redact'>" + org_html + "</div>";
-  a.outerHTML = new_html;
+$(function() {
+  $(".software").keyup(function(e){
+    e.preventDefault();
+    var swName = $.trim($(this).val());
+    //console.log(swName);
+    $(this).closest("form").find(".name").val(swName);
+  });
+  
+//Accessibility  
+  $(".submit").click(function(e){
+    e.preventDefault();
+    var searchTerm = $.trim($(this).closest(".form-row").find(".name").val());
+    var searchTerm2 = $.trim($(this).closest(".form-row").find("label").text()).toLowerCase();
+    //https://duckduckgo.com/?q=prezi+vpat&t=hi&ia=web
+    var searchurl = "https://duckduckgo.com/?q="+searchTerm+"+"+searchTerm2+"+&t=hi&ia=web";
+    window.open(searchurl);
+  });
+  $("#allSubmit").click(function(e){
+    e.preventDefault();
+    $(".search").each(function(){
+      var searchTerm = $.trim($(this).find(".name").val());
+      var searchTerm2 = $.trim($(this).find("label").text()).toLowerCase();
+      //https://duckduckgo.com/?q=prezi+vpat&t=hi&ia=web
+      var searchurl = "https://duckduckgo.com/?q="+searchTerm+"+"+searchTerm2+"+&t=hi&ia=web";
+      window.open(searchurl);
+    });
+  });
+  
+//AlternativeTo  
+  $(".atSubmit").click(function(e){
+    e.preventDefault();
+    var searchTerm = $.trim($(this).closest(".form-row").find(".name").val());
+    var searchTerm2 = $.trim($(this).closest(".form-row").find("label").text()).toLowerCase();
+    //https://alternativeto.net/browse/search?q=koalas
+    var searchurl = "https://alternativeto.net/browse/search?q="+searchTerm;
+    window.open(searchurl);
+  });
+//Osalt 
+  $(".osaltSubmit").click(function(e){
+    e.preventDefault();
+    var searchTerm = $.trim($(this).closest(".form-row").find(".name").val());
+    var searchTerm2 = $.trim($(this).closest(".form-row").find("label").text()).toLowerCase();
+    //https://alternativeto.net/browse/search?q=koalas
+    var searchurl = "https://www.osalt.com/search?q="+searchTerm;
+    window.open(searchurl);
+  });
+  
+  
+  $("h2").prepend('<i class="material-icons linkIcon">link</i>');
+  
+  $("h2").hover(function(){
+    $(this).find('.linkIcon').toggle();
+  });
+  
 });
