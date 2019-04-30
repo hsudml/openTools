@@ -20,6 +20,8 @@ h1 {
   letter-spacing: -0.5vw;
   font-size: 7vw;
   font-family: montserrat, sans-serif;
+  position: fixed;
+  top: 0;
 }
 
 h2 {
@@ -71,11 +73,6 @@ h2 a, h2 a:hover {
   font-size: 2vw;
   cursor: pointer;
   display: none;
-}
-
-.longshadow {
-  position: fixed;
-  top: 0;
 }
 
 .jumbotron {
